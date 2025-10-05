@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: farware-genesis-api
+    env: node
+    plan: free
+    region: oregon
+    branch: main
+    rootDir: server
+    buildCommand: 'npm ci'
+    startCommand: 'node src/index.js'
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 8080
