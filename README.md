@@ -1,1 +1,1 @@
-# FarWare Genesis — GitHub Ready (FULL) 
+# FarWare Genesis — GitHub Ready (FULL)
