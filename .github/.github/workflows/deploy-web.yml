@@ -6,7 +6,7 @@ on:
     paths:
       - "web/**"
       - ".github/workflows/deploy-web.yml"
-  workflow_dispatch: {}   # يسمح بالتشغيل اليدوي من Actions
+  workflow_dispatch: {}   # يسمح بتشغيله يدويًا من تبويب Actions
 
 permissions:
   contents: read
