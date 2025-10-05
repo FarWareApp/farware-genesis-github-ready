@@ -1,1 +1,0 @@
-import express from 'express';const router=express.Router();router.post('/',(req,res)=>{const {filename}=req.body||{};if(!filename)return res.status(400).json({error:'لم يتم تحديد اسم الملف للبناء'});res.json({message:'🚀 تم البناء (تجريبي)',file:filename,artifact:filename.replace('.zip','.apk')});});export default router;
