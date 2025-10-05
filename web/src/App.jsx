@@ -1,0 +1,1 @@
+import React from 'react';export default function App(){return(<div style={{padding:'2rem',fontFamily:'Arial, sans-serif'}}><h1>🚀 FarWare Genesis</h1><p>GitHub Pages auto-deploy enabled.</p></div>);}

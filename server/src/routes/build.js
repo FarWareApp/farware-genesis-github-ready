@@ -1,0 +1,1 @@
+import express from 'express';const r=express.Router();r.post('/',(req,res)=>{const {filename}=req.body||{};if(!filename)return res.status(400).json({error:'filename required'});res.json({ok:true,message:'build ok',artifact:filename.replace('.zip','.apk')});});export default r;
